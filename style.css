@@ -1,5 +1,5 @@
 body{
-	font-family: Avenir;
+	font-family: 'Oswald', sans-serif;
 	background: #f2f2f2;
 	text-align: center;
 	}
@@ -7,20 +7,42 @@ body{
 h1 {
 	color: <white;
 	font-size: 100px;
-	font-family: avenir;
+	font-family: 'Oswald', sans-serif;
 	background: linear-gradient (20deg,black,grey);
 	text-align: center;
 	font-weight: bold;
 }
 h2 { color: white;
 	font-size: 80px;
-	font-family: avenir;
+	font-family: 'Oswald', sans-serif;
 	text-align: center;
 	background-color: grey;
 	border-width: black;
 	padding: 10px;
-	border-radius:10px;
- }
+	border-radius:10px;}
+
+
+  h3 { color: white;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	background-color: black;
+	padding: 10px;
+}
+
+  h6{ color: black;
+  font-size: 15px;
+  text-align  : center;
+}
+
+p {
+	text-align: center;
+	font-size: 22px; 
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter; ;
+	color: black;
+	padding: 20px; }
+
 #logo {	height: 500px; 
 		background-position: center;
  		border-radius: 100px} 
@@ -31,36 +53,9 @@ h2 { color: white;
 
  img{ height: 200px;
   }
-
- h3 { color: white;
-	font-size: 20px;
-	font-family: avenir;
-	text-align: center;
-	background-color: black;
-	padding: 10px;
-}
-
-p{
-	text-align: center;
-	font-size: 25px; 
-	font-family: avenir;
-	font-weight: lighter; ;
-	color: black;
-	border: 1px solid black; 
-	margin: 50px;
-	padding: 70px; 
-
-}
-
-p2{
-	text-align: center;
-	font-size: 25px; 
-	font-family: avenir;
-	font-weight: lighter; ;
-	color: black; }
 a{
 	text-align: center;
-	font-family: center;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	color: black; 
 	padding: 30px;
@@ -69,18 +64,46 @@ a{
 }
 a:hover {cursor: pointer;}
 
- ul{font-family: avenir;
+ ul{font-family: 'Oswald', sans-serif;
  	font-size: 25px;
  }
 
 
-h5{ color: white;
-	font-size: 10px;
-	font-family: avenir;
+h6{ color: white;
+	font-size: 30px;
+	font-family: 'Oswald', bold, sans-serif;
 	text-align: center;
 	background-color: black;
 	padding: 10px;
 } 
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: $card-bg;
+  background-clip: border-box;
+  border: $card-border-width solid $card-border-color;
+  @include border-radius($card-border-radius);
+    > hr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+
+
+.containter { 
+font-family: 'Oswald' ;
+font-size : 12px;
+}
+
+
+
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Oxygen', sans-serif;
 
 
 

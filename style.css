@@ -1,8 +1,13 @@
 body{
 font-family: 'Oswald', sans-serif;
-background: #f2f2f2;
+background: white;
 text-align: center;
 }
+
+.categories{ 
+background: #f2f2f2;
+padding: 10px;  }
+
 
 .Bannière{
 	font-size: 1000px
@@ -48,11 +53,10 @@ background-size: cover;
 }
 
 
-h2 { color: white;
+h2 { color: #2f3234;
 font-size: 80px;
 font-family: 'Oswald', sans-serif;
 text-align: center;
-background-color: grey;
 border-width: black;
 padding: 10px;
 border-radius:10px;}
@@ -222,9 +226,6 @@ position: center;
   border: 2px solid #2dc997;
 }
 
-.acceuil-logo{ background-position: center;
-height: 300px; 
-width: 300px; }
 
 
 

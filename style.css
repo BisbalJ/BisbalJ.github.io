@@ -10,12 +10,13 @@ text-align: center;
 	position: relative;
 }
 
-.acceuil{
-	height: 500px;
-	width: 700px; 
-	background-position: center;
-	background-size: cover;
-	position: relative;
+header {
+height:300px;
+background-color: lightgray;
+background-image:url("images/fab.jpg");
+background-size: cover;
+  background-position: center;
+  display: flex;
 }
 
 .logoacceuil {
@@ -31,17 +32,19 @@ text-align: center;
 
 
 .imgcarou {
-	height: 500px;
-	width: 100%;
+	max-height: 500px;
+	max-width: 500px;
+	width: 100%; 
 	background-size: cover;
 	background-position: center;
 }
 
 .madeinfrance{
-	width: 100%;
-	height: 20px; 
-	background-position: cover; 
-	background-size : cover;
+	max-height: 500px;
+	max-width: 500px;
+	width: 100%; 
+	background-size: cover;
+	background-position: center;
 }
 
 

@@ -4,16 +4,6 @@ background: #f2f2f2;
 text-align: center;
 }
 
-h1 {
-color: white;
-font-size: 100px;
-font-family: 'Oswald', sans-serif;
-background: linear-gradient (20deg,black,grey);
-text-align: center;
-font-weight: bold;
-}
-
-
 .Bannière{
 	font-size: 1000px
 	background-color : #2f3234;
@@ -21,8 +11,8 @@ font-weight: bold;
 }
 
 .acceuil{
-	height: 600px;
-	width: 1200px; 
+	height: 500px;
+	width: 700px; 
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -41,12 +31,18 @@ font-weight: bold;
 
 
 .imgcarou {
-	height: 1000px;
+	height: 500px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
 }
 
+.madeinfrance{
+	width: 100%;
+	height: 20px; 
+	background-position: cover; 
+	background-size : cover;
+}
 
 
 h2 { color: white;
@@ -131,21 +127,11 @@ height: 200px;
 border-radius: 10px }
 
 .footer{ background-color: #2f3234; 
-font-color: white;
-position: center
+color: white;
+position: center; 
  }
 
-/*font-family: 'Oswald', sans-serif;
-font-family: 'Oxygen', sans-serif;
-*/
 
-
-.landing-page {h1 h2
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  margin: 0 0 20px 0;
-  padding: 0;
-}
 
 #hero {
   width: 100%;

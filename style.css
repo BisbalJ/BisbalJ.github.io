@@ -6,13 +6,8 @@ text-align: center;
 
 .categories{ 
 background: #f2f2f2;
-padding: 10px;  }
-
-
-.Bannière{
-	font-size: 1000px
-	background-color : #2f3234;
-	position: relative;
+padding: 10px;
+margin: 30px;
 }
 
 header {
@@ -20,31 +15,11 @@ height:300px;
 background-color: lightgray;
 background-image:url("images/fab.jpg");
 background-size: cover;
-  background-position: center;
-  display: flex;
+background-position: center;
+margin: 30px; )
 }
-
-.logoacceuil {
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  box-shadow: 2px 2px 10px grey;
-  position: absolute;
-  right: -10px;
-  top: 10px;
-  background-image: url(images/Logo FTC.PNG); 
-}
-
 
 .imgcarou {
-	max-height: 500px;
-	max-width: 500px;
-	width: 100%; 
-	background-size: cover;
-	background-position: center;
-}
-
-.madeinfrance{
 	max-height: 500px;
 	max-width: 500px;
 	width: 100%; 
@@ -79,23 +54,15 @@ h5{ color: white;
 background-color: #2f3234;
 text-align: center;
 font-size: 20px;
-font-family: "Oswald"  }
+font-family: "Oswald";
+padding: 10px;  }
 
 p{ text-align: center;
 font-size: 22px; 
 font-family: 'Oswald', sans-serif;
 font-weight: lighter; ;
 color: black;
-padding: 20px; }
-
-#Logo {width: 20px; 
-height: 20px;
-background-position: center;
- border-radius: 100px} 
-
-#voyage{ height: 300px; width: 300px; 
-background-position: center;
- } 
+padding: 10px; }
 
 
 a{
@@ -105,15 +72,17 @@ font-size: 20px;
 color: black; 
 padding: 30px;
 border-radius:10px;
-
-
-
 }
+
 a:hover {cursor: pointer;}
 
  ul{font-family: 'Oswald', sans-serif;
  font-size: 25px;
  }
+
+
+.form { background: #f2f2f2;
+padding: 20px; }
 
 .card {
   position: relative;
@@ -129,102 +98,11 @@ font-family: 'Oswald' ;
 font-size : 12px;
 }
 
-#madeinfrance{ background-position: center;
-height: 200px;
-border-radius: 10px }
-
 .footer{ background-color: #2f3234; 
 color: white;
 position: center; 
  }
 
-
-
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: url(images/Logo FTC.png) top center;
-  background-size: cover;
-  position: relative;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-#hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#hero .hero-container {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-#hero h1 {
-  margin: 30px 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
-
-#hero h2 {
-  margin-bottom: 50px;
-  font-size: 24px;
-}
-
-@media (max-width: 768px) {
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-#hero .btn-get-started {
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
-}
 
 
 
